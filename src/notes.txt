@@ -1,0 +1,62 @@
+1. Create Folder
+2. Open folder in vs code
+3. Open terminal
+4 In terminal, "npx create-react-app ."
+5. npm start
+6. Ctrl + C
+7. Install Bootstrap 
+    a. npm i Bootstrap@4.1.1
+    b. import Bootstrap in index.js file
+        1. import 'bootstrap/dist/css/bootstrap.css';
+8. npm start
+9. create a components folder in src folder
+10. create counter.jsx file in components folder
+11. imrc
+12. cc
+13. Google  - embedding expression react w3schools - https://www.w3schools.com/react/react_jsx.asp - https://www.w3schools.com/react/react_css.asp
+14. import React from 'react';
+    import ReactDOM from 'react-dom/client';
+
+    const x = 5;
+    let text = "Goodbye";
+    if (x < 10) {
+    text = "Hello";
+    }
+
+    const myElement = <h1>{text}</h1>;
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(myElement); 
+15. state = {
+        count: 0
+    };
+16. <span>{this.state.count}</span> 
+17. Google - bootstrap badge color - https://www.w3schools.com/bootstrap4/bootstrap_badges.asp            
+18. Google - bootstrap button class w3schools - 
+19. Google - bootstrap padding and margin class button - https://getbootstrap.com/docs/4.4/utilities/spacing/ - https://mdbootstrap.com/docs/standard/extended/padding/
+20. rendering classes dynamically in react - https://stackoverflow.com/questions/36209432/how-to-dynamically-add-a-class-to-manual-class-names 
+21. Google - how to refactor react code - https://keenethics.com/blog/1554572000000-refactoring - https://blog.logrocket.com/refactor-react-components-hooks/ - https://dev.to/gustavofsantos/refactoring-react-applying-tell-dont-ask-1f6m
+22. Google - when to refactor react code - https://gitential.com/when-is-the-right-time-to-refactor-your-code/
+23. Google - rendering list - https://www.w3schools.com/react/react_lists.asp
+    state = {
+        count: 1,
+        tags: ["tag1" , "tag2","tag3"],
+        colors: ['blue', 'green', 'red', 'purple']
+        // imageUrl: "https://picsum.photos/200"
+    };
+
+    <ul>
+                    {this.state.tags.map(tag => <li>{tag}</li>)}
+                </ul>
+                <ul>
+                    {this.state.colors.map(color => <li>{color}</li>)}
+                </ul>
+24. Google - handling events in react - onclick react -   https://medium.com/@aghh1504/2-increment-and-decrease-number-onclick-react-5767b765103c - https://contactmentor.com/react-increment-counter-hooks/ - https://www.w3schools.com/bootstrap4/bootstrap_buttons.asp
+25. Google - secondary bootstrap button - https://www.w3schools.com/bootstrap4/bootstrap_buttons.asp              
+26. Google - bootstrap navbar - https://getbootstrap.com/docs/4.0/components/navbar/
+27. Google - styling react components - https://mdbootstrap.com/how-to/bootstrap/change-navbar-color/ - https://medium.com/@mariorodriguezan/css-to-change-react-bootstrap-navbar-color-83763c4e13b8 - https://getbootstrap.com/docs/4.2/components/navbar/
+28. Google - github respository vs code terminal - https://code.visualstudio.com/docs/sourcecontrol/overview - https://github.com/gitname/react-gh-pages - https://dev.to/cenacr007_harsh/deploying-a-react-app-to-github-pages-370 - https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github - https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github - https://www.bacancytechnology.com/blog/deploy-react-app-on-netlify-using-github
+29  Google - please tell me who you are. run git config- https://www.thecreativedev.com/solution-github-please-tell-me-who-you-are-error/
+30. Google - error src refspec - https://www.freecodecamp.org/news/error-src-refspec-master-does-not-match-any-how-to-fix-in-git/ - https://careerkarma.com/blog/git-src-refspec-master-does-not-match-any-error/
+31 . Google - git status - https://www.atlassian.com/git/tutorials/inspecting-a-repository#:~:text=The%20git%20status%20command%20displays,regarding%20the%20committed%20project%20history. - https://github.com/git-guides/git-status
+32 . Google - react app in folder add to github - https://stackoverflow.com/questions/69864790/how-to-push-entire-react-folder-to-github
